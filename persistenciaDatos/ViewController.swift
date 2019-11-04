@@ -78,7 +78,7 @@ class ViewController: UIViewController {
             botonNav.tintColor = dark
             textoNocturno.textColor = dark
             btnSwitch.thumbTintColor = turquesa
-
+            UserDefaults.standard.removeObject(forKey: "status")
         }
     }
     
